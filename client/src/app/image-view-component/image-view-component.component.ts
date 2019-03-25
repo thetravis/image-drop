@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImageViewComponentComponent implements OnInit {
 
-  private imagelocation : string = "./assets/macgyver.jpg"
+  public imagelocation : string = "./assets/macgyver.jpg"
 
   constructor() { }
 
