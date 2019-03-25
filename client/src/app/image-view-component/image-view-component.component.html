@@ -1,0 +1,12 @@
+<div class="image-view-area">
+
+    <div class="image-and-buttons">
+        <div>
+            <img *ngIf="imagelocation != null" class="the-image" src="{{imagelocation}}">
+        </div>
+        <div *ngIf="imagelocation != null" class="the-button">
+            <button type="button" class="btn btn-danger">Delete</button>
+        </div>
+    </div>
+
+</div>

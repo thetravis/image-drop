@@ -1,2 +1,3 @@
-# image-drop
-Simple server + UI for sharing images
+# ImageDrop
+
+Simple server + UI for sharing images.
